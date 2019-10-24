@@ -1,0 +1,12 @@
+.dashboard {
+  height: 100vh;
+  width: calc(100vw - 440px);
+  padding: 0 20px;
+
+  &-title {
+    height: 80px;
+    font-weight: bold;
+    font-size: 24px;
+    border-bottom: 1px solid #eae8e8;
+  }
+}

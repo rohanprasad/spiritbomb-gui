@@ -1,0 +1,23 @@
+.sidebar {
+    width: 400px;
+    height: 100vh;
+    background-color: #464391;
+    color: #F5F7FB;
+
+    .sidebar-item {
+        height: 40px;
+        padding: 20px 40px;
+        line-height: 40px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #3b387b;
+        }
+
+        &.selected {
+            background-color: #393074;
+            padding: 20px 40px 20px 30px;
+            border-left: 10px solid #F2F3FA;
+        }
+    }
+}

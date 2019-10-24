@@ -1,0 +1,32 @@
+.listview {
+    height: calc(100% - 81px);
+
+    &-column {
+        display: inline-block;
+        width: 25%;
+        padding: 10px 0px;
+
+        &.title {
+            font-weight: bold;
+            border-bottom: 1px solid #eae8e8;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -khtml-user-select: none;
+            -ms-user-select: none;
+
+            &>.order-by {
+                border: solid black;
+                border-width: 0 2px 2px 0;
+                padding: 2px;
+                display: inline-block;
+                margin-left: 10px;
+                transform: rotateZ(45deg);
+
+                &.reverse {
+                    border-width: 2px 0 0 2px;
+                }
+            }
+        }
+    }
+}

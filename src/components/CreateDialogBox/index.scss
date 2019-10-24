@@ -1,0 +1,13 @@
+.dialog-box-header {
+    &>.close-btn {
+        cursor: pointer;
+    }
+}
+
+.dialog-box-content {
+    &>textarea {
+        border: 1px solid #eae8e8;
+        padding: 2px 4px;
+        width: calc(100% - 10px);
+    }
+}
